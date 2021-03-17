@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Wstunes/SwiftyCrypto.git", :tag => s.version }
   s.source_files = 'Sources/**/*.swift'
   s.preserve_paths = 'CocoaPods/**/*'
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
   s.pod_target_xcconfig = {
     'SWIFT_INCLUDE_PATHS[sdk=macosx*]'           => '$(PODS_ROOT)/SwiftyCrypto/CocoaPods/macosx',
     'SWIFT_INCLUDE_PATHS[sdk=iphoneos*]'         => '$(PODS_ROOT)/SwiftyCrypto/CocoaPods/iphoneos',
